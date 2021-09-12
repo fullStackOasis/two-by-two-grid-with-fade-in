@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+    <LinearLayout
+        android:id="@+id/upper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toTopOf="@+id/lower"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    <include layout="@layout/card1"
+        android:id="@+id/upperLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_margin"
+        android:layout_weight="1"
+        android:src="@drawable/maryna_vasylieva_unsplash"
+        />
+    <include layout="@layout/card1"
+        android:id="@+id/upperRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/image_margin"
+        android:layout_weight="1"
+        android:src="@drawable/natali_navytka_unsplash"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lower"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintTop_toBottomOf="@+id/upper"
+        app:layout_constraintBottom_toTopOf="@+id/scene_root"
+        >
+        <include layout="@layout/card1"
+            android:id="@+id/lowerLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/image_margin"
+            android:src="@drawable/taisiia_shestopal_unsplash"
+            />
+        <include layout="@layout/card1"
+            android:id="@+id/lowerRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/image_margin"
+            android:src="@drawable/tyler_nix_unsplash"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/scene_root"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lower">
+        <include
+            layout="@layout/main_fragment_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
