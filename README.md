@@ -16,3 +16,9 @@ Here's the animation! Thanks to convertio.co:
 
 <img src="https://user-images.githubusercontent.com/59945095/132968122-db2af4c2-46bc-4617-aece-1801f3fdf788.gif" height=600/>
 
+Thanks to Unsplash users for their free images!
+
+https://unsplash.com/photos/JBP5SfPmsPQ
+https://unsplash.com/photos/zlVfk0Zkv90
+https://unsplash.com/photos/xO9NotFY4mU
+https://unsplash.com/photos/3uSHEffsDXI
