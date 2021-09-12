@@ -12,3 +12,7 @@ Thanks to [Natali Navytka](https://unsplash.com/photos/zlVfk0Zkv90) for the latt
 
 [Documentation is available here](https://developer.android.com/training/transitions).
 
+Here's the animation! Thanks to convertio.co:
+
+<img src="https://user-images.githubusercontent.com/59945095/132968122-db2af4c2-46bc-4617-aece-1801f3fdf788.gif" height=600/>
+
